@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="TO DO "
+        android:textAlignment="center"
+        android:textColor="#E1A3A3"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_baseline_event_note_24" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etMail"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textPersonName" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etPassword"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName|textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_corners"
+        android:text="SIGN IN"
+        app:backgroundTint="@color/pink" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners"
+        android:text="SIGN UP"
+        app:backgroundTint="@color/pink" />
+
+</LinearLayout>
